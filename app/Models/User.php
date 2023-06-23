@@ -19,6 +19,31 @@ class User extends Authenticatable
      */
     protected $fillable = [
         'name',
+        'shop_name',
+        'mobile',
+        'address',
+        'user_type',
+        'logo',
+        'cover_image',
+        'payment_method',
+        'otp',
+        'otp_check',
+        'email',
+        'password',
+    ];
+
+
+    protected $visible = [
+        'name',
+        'shop_name',
+        'mobile',
+        'address',
+        'user_type',
+        'logo',
+        'cover_image',
+        'payment_method',
+        'otp',
+        'otp_check',
         'email',
         'password',
     ];
